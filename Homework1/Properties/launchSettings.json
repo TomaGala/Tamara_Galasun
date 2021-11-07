@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Homework1": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
