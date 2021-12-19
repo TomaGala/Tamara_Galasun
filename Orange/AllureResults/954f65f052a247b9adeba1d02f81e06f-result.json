@@ -1,0 +1,96 @@
+{
+  "uuid": "fa9be0ba-b1ab-4b69-b030-f4091f602e11-tr-0-1002",
+  "historyId": "OrangeTESTS.TESTS.Test",
+  "fullName": "OrangeTESTS.TESTS.Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q8KHKJK"
+    },
+    {
+      "name": "package",
+      "value": "OrangeTESTS"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test"
+    },
+    {
+      "name": "testClass",
+      "value": "TESTS"
+    },
+    {
+      "name": "tag",
+      "value": "CI"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "Tamara"
+    },
+    {
+      "name": "subSuite",
+      "value": "Create and delete"
+    },
+    {
+      "name": "suite",
+      "value": "OrangeHRMTests"
+    }
+  ],
+  "links": [
+    {
+      "name": "8911",
+      "url": "https://github.com/AutomateThePlanet/Meissa/issues/8911",
+      "type": "issue"
+    },
+    {
+      "name": "532",
+      "url": "https://github.com/AutomateThePlanet/Meissa/projects/2#card-532",
+      "type": "tms"
+    }
+  ],
+  "name": "Test",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test"
+  },
+  "stage": "finished",
+  "description": "Create and Delete New Record\n",
+  "steps": [
+    {
+      "name": "Test",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "90307d7606a74bf49275f2c379526773-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1639865925352,
+      "stop": 1639865946392
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1639865925351,
+  "stop": 1639865946402
+}
