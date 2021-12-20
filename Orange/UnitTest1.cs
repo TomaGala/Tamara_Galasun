@@ -57,7 +57,7 @@ namespace OrangeTESTS
             Assert.IsTrue(check_name.Displayed);
 
             IWebElement check_hours_from = driver.FindElement(By.XPath("//*[text()='06:00']"));
-            bool status_from = check_hours_from.Displayed;
+            bool status_ръљќ = check_hours_from.Displayed;
 
             IWebElement check_hours_to = driver.FindElement(By.XPath("//*[text()='18:00']"));
             bool status_to = check_hours_to.Displayed;
