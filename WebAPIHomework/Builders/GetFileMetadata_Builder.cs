@@ -21,6 +21,7 @@ namespace WebAPIHomework
            request.AddJsonBody(new { file = path });
         }
 
+
         // методи, що наслідуються, але не потрібні у використанні 
         public override void BuildRequestContentLength(string length, RestRequest request)
         { length = length;}

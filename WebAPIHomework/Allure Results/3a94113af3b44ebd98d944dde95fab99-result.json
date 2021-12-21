@@ -1,0 +1,88 @@
+{
+  "uuid": "72605893-1d69-48ad-aff3-105ceb8f4da9-tr-0-1004",
+  "historyId": "WebAPIHomework.UnitTest.Test3",
+  "fullName": "WebAPIHomework.UnitTest.Test3",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q8KHKJK"
+    },
+    {
+      "name": "package",
+      "value": "WebAPIHomework"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test3"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTest"
+    },
+    {
+      "name": "tag",
+      "value": "WebAPIHomeTask"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "DropboxTests"
+    }
+  ],
+  "links": [
+    {
+      "name": "8911",
+      "url": "https://github.com/AutomateThePlanet/Meissa/issues/8911",
+      "type": "issue"
+    },
+    {
+      "name": "532",
+      "url": "https://github.com/AutomateThePlanet/Meissa/projects/2#card-532",
+      "type": "tms"
+    }
+  ],
+  "name": "Test3",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Test3"
+  },
+  "stage": "finished",
+  "description": "Delete\n",
+  "steps": [
+    {
+      "name": "Test3",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b9f79fcaa1c140d6827bec7ff5a7605d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1640117300549,
+      "stop": 1640117301505
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1640117300549,
+  "stop": 1640117301505
+}

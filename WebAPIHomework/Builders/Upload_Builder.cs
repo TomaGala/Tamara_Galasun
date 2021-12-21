@@ -36,7 +36,6 @@ namespace WebAPIHomework
             request.AddHeader("Content-Type", ContentType);
         }
 
-
         // метод, що наслідується, але не використовується
         public override void BuildRequestAddJsonBody(string path, RestRequest request)
         { path = path;}

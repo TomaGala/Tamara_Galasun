@@ -11,5 +11,5 @@ namespace WebAPIHomework.Builders
         public abstract void BuildRequestContentType(string ContentType, RestRequest request);
         public abstract void BuildRequestAddJsonBody(string path, RestRequest request);
 
-    }
+     }
 }
