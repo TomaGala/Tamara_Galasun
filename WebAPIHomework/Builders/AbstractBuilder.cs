@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using RestSharp;
 
 namespace WebAPIHomework.Builders
 {
     abstract class AbstractBuilder
     {
-        public abstract void BuildRequestAuthorization(string token);
-        public abstract void BuildRequestContentLength(string length);
-        public abstract void BuildRequestBody(string image);
-        public abstract void BuildRequestDropbox(string path);
-        public abstract void BuildRequestContentType(string ContentType);
-        public abstract void BuildRequestResponse();
-        public abstract void BuildRequestAddJsonBody(string path);
+        public abstract void BuildRequestAuthorization(string token, RestRequest request);
+        public abstract void BuildRequestContentLength(string length, RestRequest request);
+        public abstract void BuildRequestBody(string image, RestRequest request);
+        public abstract void BuildRequestDropbox(string path, RestRequest request);
+        public abstract void BuildRequestContentType(string ContentType, RestRequest request);
+        public abstract void BuildRequestAddJsonBody(string path, RestRequest request);
 
     }
 }

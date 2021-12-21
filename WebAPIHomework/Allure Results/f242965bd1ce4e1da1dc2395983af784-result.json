@@ -1,0 +1,91 @@
+{
+  "uuid": "81e1d56a-b0e3-4711-aea2-7bc4cc7627f3-tr-0-1002",
+  "historyId": "WebAPIHomework.UnitTest.Test1",
+  "fullName": "WebAPIHomework.UnitTest.Test1",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q8KHKJK"
+    },
+    {
+      "name": "package",
+      "value": "WebAPIHomework"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test1"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTest"
+    },
+    {
+      "name": "tag",
+      "value": "WebAPIHomeTask"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "DropboxTests"
+    }
+  ],
+  "links": [
+    {
+      "name": "8911",
+      "url": "https://github.com/AutomateThePlanet/Meissa/issues/8911",
+      "type": "issue"
+    },
+    {
+      "name": "532",
+      "url": "https://github.com/AutomateThePlanet/Meissa/projects/2#card-532",
+      "type": "tms"
+    }
+  ],
+  "name": "Test1",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  BadRequest\r\n  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at WebAPIHomework.UnitTest.Test1() in C:\\Users\\home\\source\\repos\\WebAPIHomework\\WebAPIHomework\\UnitTest1.cs:line 37\r\n"
+  },
+  "stage": "finished",
+  "description": "Upload\n",
+  "steps": [
+    {
+      "name": "Test1",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  BadRequest\r\n  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at WebAPIHomework.UnitTest.Test1() in C:\\Users\\home\\source\\repos\\WebAPIHomework\\WebAPIHomework\\UnitTest1.cs:line 37\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5949f40e09f14507a34e00226bfed295-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1640097732814,
+      "stop": 1640097733080
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1640097732812,
+  "stop": 1640097733087
+}

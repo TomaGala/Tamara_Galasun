@@ -1,0 +1,91 @@
+{
+  "uuid": "2efe3cca-e008-4ae0-b76e-ac1788b8e5ec-tr-0-1002",
+  "historyId": "WebAPIHomework.UnitTest.Test1",
+  "fullName": "WebAPIHomework.UnitTest.Test1",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q8KHKJK"
+    },
+    {
+      "name": "package",
+      "value": "WebAPIHomework"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test1"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTest"
+    },
+    {
+      "name": "tag",
+      "value": "WebAPIHomeTask"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "DropboxTests"
+    }
+  ],
+  "links": [
+    {
+      "name": "8911",
+      "url": "https://github.com/AutomateThePlanet/Meissa/issues/8911",
+      "type": "issue"
+    },
+    {
+      "name": "532",
+      "url": "https://github.com/AutomateThePlanet/Meissa/projects/2#card-532",
+      "type": "tms"
+    }
+  ],
+  "name": "Test1",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  BadRequest\r\n  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at WebAPIHomework.UnitTest.Test1() in C:\\Users\\home\\source\\repos\\WebAPIHomework\\WebAPIHomework\\UnitTest1.cs:line 35\r\n"
+  },
+  "stage": "finished",
+  "description": "Upload\n",
+  "steps": [
+    {
+      "name": "Test1",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  BadRequest\r\n  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at WebAPIHomework.UnitTest.Test1() in C:\\Users\\home\\source\\repos\\WebAPIHomework\\WebAPIHomework\\UnitTest1.cs:line 35\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "432f7844e7934118ba6d974cf7467c75-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1640097876691,
+      "stop": 1640097877768
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1640097876690,
+  "stop": 1640097877775
+}

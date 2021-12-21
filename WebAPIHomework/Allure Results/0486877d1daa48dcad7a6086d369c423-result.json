@@ -1,0 +1,91 @@
+{
+  "uuid": "6bd2109b-2a4b-45d4-ab02-ea5610e9965a-tr-0-1004",
+  "historyId": "WebAPIHomework.UnitTest.Test3",
+  "fullName": "WebAPIHomework.UnitTest.Test3",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q8KHKJK"
+    },
+    {
+      "name": "package",
+      "value": "WebAPIHomework"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test3"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTest"
+    },
+    {
+      "name": "tag",
+      "value": "WebAPIHomeTask"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "DropboxTests"
+    }
+  ],
+  "links": [
+    {
+      "name": "8911",
+      "url": "https://github.com/AutomateThePlanet/Meissa/issues/8911",
+      "type": "issue"
+    },
+    {
+      "name": "532",
+      "url": "https://github.com/AutomateThePlanet/Meissa/projects/2#card-532",
+      "type": "tms"
+    }
+  ],
+  "name": "Test3",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  BadRequest\r\n  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at WebAPIHomework.UnitTest.Test3() in C:\\Users\\home\\source\\repos\\WebAPIHomework\\WebAPIHomework\\UnitTest1.cs:line 72\r\n"
+  },
+  "stage": "finished",
+  "description": "Delete\n",
+  "steps": [
+    {
+      "name": "Test3",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  BadRequest\r\n  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at WebAPIHomework.UnitTest.Test3() in C:\\Users\\home\\source\\repos\\WebAPIHomework\\WebAPIHomework\\UnitTest1.cs:line 72\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9e4524b1a09042d6a7133aa52ac59177-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1640098701259,
+      "stop": 1640098701508
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1640098701259,
+  "stop": 1640098701511
+}

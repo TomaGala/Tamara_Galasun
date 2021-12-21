@@ -1,0 +1,91 @@
+{
+  "uuid": "e6ca4b3d-5bc5-403a-86de-ef2ad29d929c-tr-0-1003",
+  "historyId": "WebAPIHomework.UnitTest.Test2",
+  "fullName": "WebAPIHomework.UnitTest.Test2",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q8KHKJK"
+    },
+    {
+      "name": "package",
+      "value": "WebAPIHomework"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test2"
+    },
+    {
+      "name": "testClass",
+      "value": "UnitTest"
+    },
+    {
+      "name": "tag",
+      "value": "WebAPIHomeTask"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "DropboxTests"
+    }
+  ],
+  "links": [
+    {
+      "name": "8911",
+      "url": "https://github.com/AutomateThePlanet/Meissa/issues/8911",
+      "type": "issue"
+    },
+    {
+      "name": "532",
+      "url": "https://github.com/AutomateThePlanet/Meissa/projects/2#card-532",
+      "type": "tms"
+    }
+  ],
+  "name": "Test2",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  BadRequest\r\n  Expected: True\r\n  But was:  False\r\n",
+    "trace": "   at WebAPIHomework.UnitTest.Test2() in C:\\Users\\home\\source\\repos\\WebAPIHomework\\WebAPIHomework\\UnitTest1.cs:line 54\r\n"
+  },
+  "stage": "finished",
+  "description": "GetFileMetadata\n",
+  "steps": [
+    {
+      "name": "Test2",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  BadRequest\r\n  Expected: True\r\n  But was:  False\r\n",
+        "trace": "   at WebAPIHomework.UnitTest.Test2() in C:\\Users\\home\\source\\repos\\WebAPIHomework\\WebAPIHomework\\UnitTest1.cs:line 54\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "db91173411c24ac58814ec4d2b96c26c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1640098813264,
+      "stop": 1640098813755
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1640098813264,
+  "stop": 1640098813755
+}

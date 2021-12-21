@@ -1,43 +1,31 @@
 ﻿using RestSharp;
-using NUnit.Framework;
-using WebAPIHomework.Builders;
 
 namespace WebAPIHomework.Builders
 {
     class Delete_Builder : AbstractBuilder
     {
 
-        RestRequest rq = new RestRequest();
-        public override void BuildRequestAuthorization(string token)
+        public override void BuildRequestAuthorization(string token, RestRequest request)
         {
-            rq.AddHeader("Authorization", token);
+            request.AddHeader("Authorization", token);
         }
 
-        public override void BuildRequestContentType(string ContentType)
+        public override void BuildRequestContentType(string ContentType, RestRequest request)
         {
-            rq.AddHeader("Content-Type", ContentType);
+           request.AddHeader("Content-Type", ContentType);
         }
 
-        public override void BuildRequestAddJsonBody(string path)
+        public override void BuildRequestAddJsonBody(string path, RestRequest request)
         {
-            rq.AddJsonBody(new { path = path });
+            request.AddJsonBody(new { path = path });
         }
-
-        public override void BuildRequestResponse()
-        {
-            var client = new RestClient("https://api.dropboxapi.com/2/files/delete_v2");
-            var response = (RestResponse)client.Post(rq);
-            var res = response.StatusCode;
-            Assert.True(res == System.Net.HttpStatusCode.OK, response.StatusCode.ToString());
-        }
-
 
         // методи, що наслідуються, але не потрібні у використанні 
-        public override void BuildRequestContentLength(string length)
+        public override void BuildRequestContentLength(string length, RestRequest request)
         { length = length; }
-        public override void BuildRequestBody(string image)
+        public override void BuildRequestBody(string image, RestRequest request)
         { image = image; }
-        public override void BuildRequestDropbox(string path)
+        public override void BuildRequestDropbox(string path, RestRequest request)
         { path = path; }
     }
 }
