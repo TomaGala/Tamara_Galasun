@@ -1,0 +1,44 @@
+{
+  "uuid": "74f9455d-1f2a-4a7e-b100-d473279c2f54-tc-0-1001",
+  "name": "OrangeTESTS.TESTS.Test",
+  "children": [
+    "261ea1fe-de52-467d-89cf-8dda4f6369a2-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1640087055491,
+      "stop": 1640087055491
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1640087055491,
+      "stop": 1640087055491
+    }
+  ],
+  "links": [],
+  "start": 1640087036926,
+  "stop": 1640087055575
+}

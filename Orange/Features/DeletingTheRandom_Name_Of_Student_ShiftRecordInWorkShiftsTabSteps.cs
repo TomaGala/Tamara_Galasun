@@ -48,7 +48,7 @@ namespace OrangeTESTS.Features
         [Then(@"the Random_name_of_student_shift record should not be visible in the list of work shifts")]
         public void ThenTheRandom_Name_Of_Student_ShiftRecordShouldNotBeVisibleInTheListOfWorkShifts()
         {
-            Boolean exist = Driver.FindElements(By.XPath("//*[text()='Random_name_of_student_shift']")).Count == 0;
+            Assert.IsTrue((Driver.FindElements(By.XPath("//*[text()='Random_name_of_student_shift']")).Count) == 0);
             Driver.Quit();
         }
     }

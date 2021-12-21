@@ -14,19 +14,19 @@ namespace OrangeTESTS.Page_Objects
             _webDriver = webDriver;
         }
 
-        // Заповнення текстового вікна Login (введення імені користувача)
+        // Filling in the Login text box
         public void Login(string username)
         {
             _webDriver.FindElement(UsernameTextbox).SendKeys(username);
         }
 
-        // Заповнення текстового вікна Password (введення пароля)
+        // Filling the Password text box
         public void Password(string password)
         {
             _webDriver.FindElement(PasswordTextbox).SendKeys(password);
         }
 
-        // Натискання кнопки Login, щоб авторизуватися на сайті
+        // Click the Login button to log in to the site
         public void LoginClick()
         {
             _webDriver.FindElement(LoginButton).Click();

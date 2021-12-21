@@ -1,0 +1,91 @@
+{
+  "uuid": "420ec6c0-5d7c-4948-a09d-afa8797e2e43-tr-0-1002",
+  "historyId": "OrangeTESTS.TESTS.Test",
+  "fullName": "OrangeTESTS.TESTS.Test",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-Q8KHKJK"
+    },
+    {
+      "name": "package",
+      "value": "OrangeTESTS"
+    },
+    {
+      "name": "testMethod",
+      "value": "Test"
+    },
+    {
+      "name": "testClass",
+      "value": "TESTS"
+    },
+    {
+      "name": "tag",
+      "value": "SeleniumHomeTask"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "OrangeHRMTests"
+    }
+  ],
+  "links": [
+    {
+      "name": "8911",
+      "url": "https://github.com/AutomateThePlanet/Meissa/issues/8911",
+      "type": "issue"
+    },
+    {
+      "name": "532",
+      "url": "https://github.com/AutomateThePlanet/Meissa/projects/2#card-532",
+      "type": "tms"
+    }
+  ],
+  "name": "Test",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: False\r\n  But was:  True\r\n",
+    "trace": "   at OrangeTESTS.TESTS.Test() in C:\\Users\\home\\source\\repos\\Orange\\Orange\\UnitTest1.cs:line 59\r\n"
+  },
+  "stage": "finished",
+  "description": "Create and Delete New Record\n",
+  "steps": [
+    {
+      "name": "Test",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected: False\r\n  But was:  True\r\n",
+        "trace": "   at OrangeTESTS.TESTS.Test() in C:\\Users\\home\\source\\repos\\Orange\\Orange\\UnitTest1.cs:line 59\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "488aa186a8054c6da62d936d34b126cd-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1640089439603,
+      "stop": 1640089459012
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1640089439594,
+  "stop": 1640089459024
+}

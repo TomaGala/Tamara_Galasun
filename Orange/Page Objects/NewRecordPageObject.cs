@@ -22,31 +22,31 @@ namespace OrangeTESTS.Page_Objects
             _webDriver = webDriver;
         }
 
-        // Натискання кнопки Add для створення нового запису 
+        // Click the Add button to create a new record
         public void AddNewRecord()
         {
             _webDriver.FindElement(AddNewRecordButton).Click();
         }
 
-        // Заповнення текстового вікна Shift Name (назва зміни)
+        // Filling the Shift Name text box
         public void ShiftName(string name)
         {
             _webDriver.FindElement(ShiftNameTextbox).SendKeys(name);
         }
 
-        // Заповнення текстового вікна Work Hours from (початок робочого дня)
+        // Filling the Work Hours (FROM) text box
         public void WorkHours_from(string hours_from)
         {
             _webDriver.FindElement(WorkHours_from_Textbox).SendKeys(hours_from);
         }
 
-        // Заповнення текстового вікна Work Hours to (кінець робочого дня)
+        // Filling the Work Hours (TO) text box
         public void WorkHours_to(string hours_to)
         {
             _webDriver.FindElement(WorkHours_to_Textbox).SendKeys(hours_to);
         }
 
-        // Натискання кнопки Add, щоб перемістити робітників із колонки Available Employees в колонку Assigned Employees
+        // Click the Add button to move workers from the Available Employees column to the Assigned Employees column
         public void AddEmployees()
         {
             SelectElement select_employees = new SelectElement(_webDriver.FindElement(AvailableEmployeesTextbox));
@@ -59,13 +59,13 @@ namespace OrangeTESTS.Page_Objects
             }
         }
 
-        // Натискання кнопки Save (зберегти новий запис)
+        // Click the Save button
         public void SaveRecord()
         {
             _webDriver.FindElement(SaveButton).Click();
         }
 
-        // Натискання кнопки Delete (видалити запис)
+        // Click the Delete button
         public void DeleteRecord()
         {
             _webDriver.FindElement(DeleteButton).Click();
