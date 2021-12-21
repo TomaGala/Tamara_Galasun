@@ -53,5 +53,5 @@ Implementation of the functions for deleting the record can be found in "NewReco
 Implementation of the functions for checking record`s removing can be found in "NewRecordPageObject.cs" file
 
 ``` C#
-   Boolean exist = driver.FindElements(By.XPath("//*[text()='Random_name_of_student_shift']")).Count == 0;
+   Assert.IsTrue((driver.FindElements(By.XPath("//*[text()='Random_name_of_student_shift']")).Count) == 0);
    ```
